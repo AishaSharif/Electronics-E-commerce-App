@@ -34,18 +34,26 @@ login with school email
 
 Open [http://localhost:3333](http://localhost:3000) with your browser to manage the sanity database.
 
-## Sharing your work
+## Working with Git
 
-create a branch with your name
+create a branch with a specific name
 
 ```
-git branch <your_name>
+git branch <name_of_branch>
+```
+
+make sure you are working on your branch
+
+```
+git checkout <name_of_branch>
 ```
 
 push to github
 
 ```
-git push -u origin <branch_name>
+git add -A
+git commit -m "<your_commit_message>"
+git push
 ```
 
 ## Deploy on Vercel
